@@ -5,7 +5,7 @@ def call_dotnet(args):
     # The path to the .NET 6 app DLL or executable
     dotnet_app_path = '/home/chaithanya/Documents/Python_via_Bash/linux-x64/BashPythonScript.dll'
 
-    # Call the .NET app with arguments
+    # Call the .NET app with arguments 
     command = ['dotnet', dotnet_app_path] + args
 
     # Run the command
